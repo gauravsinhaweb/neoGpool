@@ -3,7 +3,7 @@ import RoutePage from "./routes/RoutePage";
 function App() {
   return (
     <>
-      <div>
+      <div className="overflow-y-hidden">
         <RoutePage />
       </div>
     </>
