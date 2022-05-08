@@ -1,0 +1,45 @@
+.sidebar {
+  margin-top: 15rem;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  height: 80vh;
+  position: absolute;
+}
+
+.sidebar-list {
+  display: flex;
+  list-style-type: none;
+  font-size: 1.2rem;
+  flex-direction: column;
+  margin: 1rem;
+  padding: 1.5rem;
+  border: 1px solid;
+  border-radius: 10px;
+}
+
+.divider {
+  height: 1px;
+  background-color: var(--grey);
+}
+
+.sidebar-list li {
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0.65rem;
+  cursor: pointer;
+  flex-grow: 1;
+}
+
+.sidebar-list .sidebar-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  font-weight: 550;
+  margin-bottom: 5px;
+}
+
+label {
+  margin: 0.2rem;
+  display: block;
+}
