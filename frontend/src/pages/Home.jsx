@@ -15,6 +15,17 @@ export const Home = () => {
   const [category, setCategory] = useState("");
   useState();
 
+  const getFilteredData = (e , categoryName) => {
+    if(e.target.checked){ 
+     setData(data.filter(item => item.category === categoryName));
+    }else{
+      setData(data)
+    }
+  }
+
+  
+  
+
   const handleClick = () => {
     axios
       .get("http://localhost:4000/api/tweets")
@@ -68,19 +79,19 @@ export const Home = () => {
             <div class="filter-list">
               <label>
                 {" "}
-                <input type="checkbox" /> Tweets
+                <input type="checkbox" onClick={(e) => getFilteredData(e, 'tweets')} /> Tweets
               </label>
               <label>
                 {" "}
-                <input type="checkbox" /> Tech Blog
+                <input type="checkbox" onClick={(e) => getFilteredData(e, 'blogs')} /> Tech Blog
               </label>
               <label>
                 {" "}
-                <input type="checkbox" /> Internship Opening
+                <input type="checkbox" onClick={(e) => getFilteredData(e, 'internship')} /> Internship Opening
               </label>
               <label>
                 {" "}
-                <input type="checkbox" /> YouTube Tutorial
+                <input type="checkbox" onClick={(e) => getFilteredData(e, 'codesandbox')} /> CodeSandBox
               </label>
             </div>
           </div>
