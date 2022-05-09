@@ -24,3 +24,5 @@ neoGpool curates relevant information for the following types -
 4. Internship Openeings<br>
 
 ### More features coming soon..
+
+![screencapture-localhost-3000-2022-05-09-08_54_07](https://user-images.githubusercontent.com/75125943/167335593-673e4edc-ac74-4caf-90ed-22d69cbd21fa.png)
