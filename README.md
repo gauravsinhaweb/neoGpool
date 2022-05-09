@@ -1,3 +1,7 @@
+![neoGpool](https://user-images.githubusercontent.com/75125943/167335953-9a3beb93-800a-48f7-937e-e05e6f645be5.png)
+
+
+
 # neoGpool-hackneoG-22 🚩
 
 neoGpool is an educative platform which serves as a hub for finding & sharing insightful content surfacing across the neoGcamp community.
